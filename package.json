@@ -1,0 +1,17 @@
+{
+  "name": "signalling_server",
+  "version": "1.0.0",
+  "description": "WebRTC Signalling Server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "build": "npm install"
+  },
+  "keywords": ["webrtc", "nodejs", "socket.io", "signalling"],
+  "author": "Yash Chudasama",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.6.0"
+  }
+}
