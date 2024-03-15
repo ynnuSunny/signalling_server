@@ -1,4 +1,5 @@
 let port = process.env.PORT || 5000;
+console.log("Running Well on port : ");
 console.log(port);
 
 let IO = require("socket.io")(port, {
